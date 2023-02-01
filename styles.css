@@ -1,0 +1,144 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  padding:3% 10%;
+}
+.body{
+font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+  padding: 3% 15% 9%;
+}
+
+.mb{
+  font-family: 'Montserrat-black';
+  line-height: 1.5;
+  font-size: 4rem;
+}
+/* navigation Bar */
+.navbar-brand{
+  font-family: 'Ubuntu' ;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-weight: 'Montserrat-light';
+}
+.nav-item{
+  padding: 0 18px;
+}
+/* Download button */
+.download-btn{
+  margin:5px 3px 5px 0;
+
+}
+.title-image{
+width:25%;
+transform: rotate(25deg);/*equal in degree*/
+margin: 5% 2%;
+position: absolute;
+}
+.p{
+  color: "grey";
+}
+.h2{
+  font-family: 'Montserrat-bold';
+  font-size: 3rem;
+  }
+.h3{
+  font-family:'Montserrat-bold';
+  font-size: 1.5rem;
+}
+/* features */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding:4.5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testimonial section */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+
+
+}
+.carousel-item{
+    padding: 7% 10%;
+}
+
+.testimonials-image{
+  border-radius: 100%;
+  width:15%;
+  margin: 2%;
+}
+/* press section */
+#press{
+  background-color:  #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-image{
+  width: 17%;
+}
+/* Prising section */
+#pricing{
+padding: 100px;
+text-align: center;
+}
+.prising-column{
+  padding: 3% 2%;
+
+}
+@media(max-width:780px){
+#title{
+  text-align: center;
+}
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width:60%;
+
+  }
+}
+
+/* Cta section */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10% 7%;
+  color: #fff;
+
+
+}
+cta-heading{
+  font-family: 'Montserrat-black';
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+
+/* footer section */
+#footer{
+  text-align: center;
+  background-colo:#fff;
+padding:3% 7%;
+}
+.f-icon{
+  margin:1%;
+}
